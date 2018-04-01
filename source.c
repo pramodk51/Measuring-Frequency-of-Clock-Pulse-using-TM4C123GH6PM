@@ -40,7 +40,7 @@ int main(void){
 
      SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOD);                // enabling GPIO portD
      //
-     // Wait for the GPIOA module to be ready.
+     // Wait for the GPIOD module to be ready.
      //
      while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOD))
      { }
@@ -49,7 +49,7 @@ int main(void){
 
      SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOB);                // enabling GPIO portB
      //
-     // Wait for the GPIOA module to be ready.
+     // Wait for the GPIOB module to be ready.
      //
      while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOB))
      { }
@@ -57,7 +57,7 @@ int main(void){
 
      SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOC);                // enabling GPIO portC
      //
-     // Wait for the GPIOA module to be ready.
+     // Wait for the GPIOC module to be ready.
      //
      while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOC))
      { }
@@ -72,7 +72,7 @@ int main(void){
 
 
      //
-     // Wait for the Timer0 module to be ready.
+     // Wait for the Timer5 module to be ready.
      //
      while(!SysCtlPeripheralReady(SYSCTL_PERIPH_TIMER5))
      { }
